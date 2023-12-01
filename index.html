@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 class="heading">CatPhotoApp</h1>
+        <section>
+            <h2>Cat Photos</h2>
+            <p class="text">See more <a href="https://www.bing.com/images/search?q=Cutest+Cats&FORM=RESTAB" target="_blank" rel="noopener noreferrer">cat photos </a> in our gallery.</p>
+            <img class="image" src="cat.jpeg" alt="cat photo">
+        </section>
+        <section>
+          <div class="list">
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+              <li>cat nip</li>
+              <li>laser pointers</li>
+              <li>lasagna</li>
+            </ul>
+          </div>
+            <figure>
+                <img src="lasagna.jpeg" alt="lasagna">
+                <figcaption>Cats <em>love</em> lasagna.</figcaption>   
+            </figure>
+            <h3>Top 3 things cats hate:</h3>
+            <div class="list">
+            <ol>
+              <li>flea treatment</li>
+              <li>thunder</li>
+              <li>other cats</li>
+            </ol>
+          </div>
+            <figure>
+                <img src="img.jpeg" alt="Group of cats">
+              <div class="group">
+                <img src="group-img.jpeg" alt="img">
+              </div>
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+            </figure>
+        </section>    
+            <section>
+                <h2 class="small">Cat Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+                        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                      </fieldset>
+                      <fieldset>
+                        <legend>What's your cat's personality?</legend>
+                        <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                        <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                        <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                      </fieldset>
+                      <input type="text" name="catphotourl" placeholder="Cat photo url" required>
+                      <button type="submit">Submit</button>
+                    </form>
+                    <footer>
+                        <p>
+                          No Copyright - <a href="https://www.britannica.com/animal/cat">Cat Information</a>
+                        </p>
+                      </footer>
+                </form>
+            </section>
+    </main>
+</body>
+</html>
