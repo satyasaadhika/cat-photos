@@ -1,2 +1,4 @@
 # Building a cat photo
->Cat images
+## Cat images
+
+![cat photo](/assets/images/cat.jpeg)
