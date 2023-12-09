@@ -1,2 +1,2 @@
-# Building a cat photo
+# CatPhotoApp
 ## Cat images
