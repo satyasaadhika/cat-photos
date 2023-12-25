@@ -120,3 +120,8 @@ footer p  a:hover{
      border: 2px solid black;
      border-radius: px;
 }
+@media only screen and (max-width:380px){
+    .image ,.group1,.group img, .cat-food{
+        width: 100%;
+    }
+}
